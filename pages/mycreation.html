@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="../lib/bootstrap.css"/>
+  <link rel="stylesheet" href="../assets/style.css"/>
+  <script type="text/javascript" src="../lib/phaser.min.js"></script>
+  <script type="text/javascript" src="../js/flappy.js?v=2"></script>
+  <script type="text/javascript" src="../lib/jquery.js"></script>
+  <script type="text/javascript" src="../js/interactivity.js"></script>
+  </head>
+
+  <style>
+  .button{
+    border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 2px dashed #000405;}
+  </style>
+
+<body style="background-color:#009999;">
+
+
+<div class="container">
+    <div class="jumbotron">
+      <h2 align="center"> Let's GoPoke.</h2>
+      <p align="center"> Welcome to the relaxing zone where we aim to help you to relax and recharge your energy! </p>
+      <p align="center"> Love what we do? Please share <a href ="https://twitter.com/SharonOh2" target="_blank"> our vision </a> to the world! </p>
+      </p>
+    </div>
+
+    <div class="row" style = "background-color: white">
+      <div class = "row">
+        <div class = "col-md-4" id = "game">
+        </div>
+    <!--  </div> -->
+
+      <div class="row">
+        <div class = "col-md-2 col-md-offset-5" > <p id="board5"> <b>Display Board </b></p>
+        </div>
+          <div class = "col-md-2 col-md-offset-5" id="scoreDiv">
+          </div>
+          <div class = "col-md-2 col-md-offset-5" id="creditsDiv">
+          </div>
+          <div class = "col-md-2 col-md-offset-5" id="helpDiv">
+          </div>
+        </div>
+      </div>
+      <!-- <div class="row">
+        <div class = "col-md-2 col-md-offset-5" id="scoreDiv">
+        </div>
+        <div class = "col-md-2 col-md-offset-5" id="creditsDiv">
+        </div>
+        <div class = "col-md-2 col-md-offset-5" id="helpDiv">
+        </div>
+      </div> -->
+    </div>
+
+
+    <div class="row">
+       <div class="col-md-8">
+           <button type="button" style="background-color:#41C7CC" class="btn btn-default" id="scoresbtn">Scores</button>
+           <button type="button" style="background-color:#2BCCA6" class="btn btn-default" id="creditsbtn">Credits</button>
+           <button type="button" style="background-color:#2BCCA6" class="btn btn-default" id="helpbtn">Help</button>
+         </div>
+       </div>
+     </div>
+
+     <a href="https://twitter.com/share" id="sharing" target="_blank"> Share your score on Twitter
+</a>
+
+   </body>
+</html>
